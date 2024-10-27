@@ -1,0 +1,19 @@
+.button-add-to-card{
+    width: 300px;
+}
+.button-add-to-card:hover{
+    background-color: blue;
+}
+.py-4{
+    width:600px;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color:#b3d6e4;
+    border-radius:10px;
+    border:"blue 1px solid";
+}
+@media screen and (max-width:598px){
+    .py-4{
+        width: 300px;
+    } 
+}

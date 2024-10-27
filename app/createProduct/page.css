@@ -1,0 +1,68 @@
+/* Centers the container with some padding */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Changes the font and color of the page heading */
+  h1 {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Styles for form labels */
+  form label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  /* General input styling */
+  form input[type="text"],
+  form input[type="number"],
+  form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: 0 0 4px rgba(102, 175, 233, 0.4);
+  }
+  
+  /* Button styling */
+  button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Toast notification styling */
+  .Toastify__toast {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
