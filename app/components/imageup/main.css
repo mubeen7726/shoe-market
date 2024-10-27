@@ -28,6 +28,10 @@ font-size: 30px !important;
         position: relative;
         bottom: 30px ;
     }
+    .button-add-to-card{
+    width: 250px;
+    margin-left: 50px;
+    }
    
 }
 .image-up{
