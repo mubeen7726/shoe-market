@@ -19,7 +19,7 @@ export default function CustomNavbar() {
 
   return (
     <Navbar
-      style={{ backgroundColor: "#7777a1" }}
+      // style={{ backgroundColor: "#7777a1" }}
       variant="dark"
       expand="lg"
       className="p-3"
@@ -55,6 +55,7 @@ export default function CustomNavbar() {
                     alt="Shopping Cart"
                     width={30}
                     height={30}
+                    
                   />
                   {cartCount > 0 && (
                     <Badge bg="danger" pill className="Badge">

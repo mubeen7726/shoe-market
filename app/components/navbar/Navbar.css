@@ -3,4 +3,13 @@
     right: 10px;
     bottom: 7px;
 }
+.p-3{
+    background-color: #7777a1;
+}
+@media (max-width :788px) {
+    .p_3{
+        height: 50px;
+    }
+   
+}
 
